@@ -43,6 +43,7 @@
   <li><strong>Финансови данни в рамките на сградата:</strong> задължения (такси), заявени и потвърдени плащания, приходи, разходи и финансови отчети на сградата. Приложението е счетоводен регистър; то <strong>не</strong> се свързва с банкова сметка и <strong>не</strong> съхранява данни за вашата банкова карта.</li>
   <li><strong>Събрания и гласувания:</strong> присъствие, гласове по точки от дневния ред, протоколи.</li>
   <li><strong>Съдържание, което създавате:</strong> съобщения в чата на сградата, снимки и документи, които качвате, известия.</li>
+  <li><strong>Технически данни:</strong> IP адрес и данни за заявките към сървъра, които се записват в логовете на хостинг доставчика <strong>Render</strong> за работата и сигурността на услугата.</li>
 </ul>
 <p>Приложението изисква само разрешение за интернет. Снимки и файлове се качват само ако сами ги изберете през системния избор на файлове. Не събираме точно местоположение, контакти, микрофон или камера.</p>
 
@@ -61,9 +62,9 @@
   <li><strong>Supabase</strong> – база данни и съхранение на качени файлове.</li>
   <li><strong>Google Firebase</strong> (Google LLC) – изпращане на push известия (когато функцията е включена в приложението).</li>
   <li><strong>Infobip</strong> – изпращане на SMS кодове за потвърждение (получава телефонния ви номер и кода).</li>
-  <li><strong>Платежен доставчик за абонамента:</strong> Stripe. Данните за картата се обработват само от платежния доставчик, ние ги не виждаме и не ги съхраняваме.</li>
+  <li><strong>Платежен доставчик за абонамента:</strong> Stripe. Данните за картата се обработват само от платежния доставчик, ние не ги виждаме и не ги съхраняваме.</li>
 </ul>
-<p><strong>Други потребители на същата сграда.</strong> По дизайна на приложението вашето име, апартамент, роля, статус на плащанията и съобщенията ви в чата са видими за останалите членове и управата на съответната сграда. Не са видими за потребители на други сгради.</p>
+<p><strong>Други потребители на същата сграда.</strong> По дизайна на приложението вашето име, телефонен номер, апартамент, роля, статус на плащанията и съобщенията ви в чата са видими за останалите членове и управата на съответната сграда. Не са видими за потребители на други сгради.</p>
 <p>Можем да разкрием данни и на органи на власт, когато това се изисква от закона.</p>
 
 <h2>4а. Абонамент за сградата</h2>
@@ -74,7 +75,7 @@
   <li>Данните на акаунта се пазят, докато акаунтът е активен.</li>
   <li>Кодове за потвърждение и за възстановяване на парола се пазят кратко и се изтриват с акаунта.</li>
   <li>Данни, които са част от общата документация на сградата (протоколи, финансови записи, плащания), могат да се пазят и след изтриването на акаунта, но <strong>анонимизирани</strong> – без връзка с вашето име и телефон.</li>
-  <li>Логовете на хостинга се пазят за ограничен срок от съответния доставчик.</li>
+  <li>Логовете с IP адреси и данни за заявките се пазят за ограничен срок от <strong>Render</strong>.</li>
 </ul>
 
 <h2>6. Изтриване на акаунт и данни</h2>
@@ -100,7 +101,6 @@
 </section>
 
 <hr class="lang-sep" id="english">
-
 <!-- ===================================================================== -->
 <!-- ENGLISH                                                               -->
 <!-- ===================================================================== -->
@@ -120,6 +120,7 @@
   <li><strong>Financial data within a building:</strong> dues, declared and confirmed payments, income, expenses and financial reports. The app is a bookkeeping ledger; it does <strong>not</strong> connect to your bank account and does <strong>not</strong> store your payment card details.</li>
   <li><strong>Meetings and voting:</strong> attendance, votes on agenda items, protocols.</li>
   <li><strong>Content you create:</strong> building chat messages, photos and documents you upload, notifications.</li>
+  <li><strong>Technical data:</strong> IP address and request data, which are recorded in the logs of our hosting provider <strong>Render</strong> for the operation and security of the service.</li>
 </ul>
 <p>The app requests only the Internet permission. Photos and files are uploaded only if you choose them through the system file picker. We do not collect precise location, contacts, microphone or camera data.</p>
 
@@ -140,7 +141,7 @@
   <li><strong>Infobip</strong> – sending SMS verification codes (receives your phone number and the code).</li>
   <li><strong>Subscription payment provider:</strong> Stripe. Card details are processed only by the payment provider; we do not see or store them.</li>
 </ul>
-<p><strong>Other users of the same building.</strong> By design, your name, apartment, role, payment status and chat messages are visible to other members and the management of the same building. They are not visible to users of other buildings.</p>
+<p><strong>Other users of the same building.</strong> By design, your name, phone number, apartment, role, payment status and chat messages are visible to other members and the management of the same building. They are not visible to users of other buildings.</p>
 <p>We may disclose data to public authorities when required by law.</p>
 
 <h2>4a. Building subscription</h2>
@@ -151,7 +152,7 @@
   <li>Account data is kept while the account is active.</li>
   <li>Verification and password-recovery codes are kept briefly and deleted with the account.</li>
   <li>Data that forms part of a building's shared records (protocols, financial records, payments) may be kept after account deletion, but <strong>anonymized</strong> – without a link to your name and phone number.</li>
-  <li>Hosting logs are kept for a limited time by the respective provider.</li>
+  <li>Logs containing IP addresses and request data are kept for a limited time by <strong>Render</strong>.</li>
 </ul>
 
 <h2>6. Account and data deletion</h2>
