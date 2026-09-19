@@ -1,50 +1,181 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Политика за поверителност - МоятДом</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика за поверителност – Моят Дом / Privacy Policy – Moyat Dom</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2a1d; --muted:#5b6b5b; --accent:#2e7d32; --line:#dfe7df; --mark:#fff3b0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121712; --fg:#e6efe6; --muted:#a3b3a3; --accent:#7ccf80; --line:#2a352a; --mark:#5a4b00; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:1.7rem; margin:0 0 4px; color:var(--accent); }
+  h2 { font-size:1.15rem; margin:28px 0 8px; padding-top:12px; border-top:1px solid var(--line); }
+  p, li { margin:6px 0; }
+  ul { padding-left:22px; }
+  .meta { color:var(--muted); font-size:.9rem; margin-bottom:16px; }
+  a { color:var(--accent); }
+  mark { background:var(--mark); color:inherit; padding:0 3px; border-radius:3px; }
+  .lang-sep { margin:48px 0 0; border:0; border-top:3px solid var(--accent); }
+</style>
 </head>
-
 <body>
-    <h1>Политика за поверителност</h1>
+<main>
 
-    <p>
-        Приложението „МоятДом“ използва лични данни единствено за предоставяне
-        и функциониране на услугите в приложението.
-    </p>
+<!-- ===================================================================== -->
+<!-- БЪЛГАРСКИ                                                             -->
+<!-- ===================================================================== -->
+<section lang="bg">
+<h1>Политика за поверителност</h1>
+<p class="meta">Приложение „Моят Дом“ (Android) · Последна редакция: 19 септември 2026 г. · <a href="#english">English version below</a></p>
 
-    <p>
-        Данните се използват за регистрация и вход, управление на потребителския
-        акаунт, предоставяне на функциите на приложениет, комуникация с потребителя.
-    </p>
-    <h2>Вашите права</h2>
+<h2>1. Кой е администратор на данните</h2>
+<p>Администратор на личните данни е разработчикът на приложението „Моят Дом“ – физическо лице: Станимира Димова.</p>
+<p>Контакт за въпроси относно поверителността и за упражняване на вашите права: <a href="mailto:propertymanagement5005@gmail.com">propertymanagement5005@gmail.com</a>.</p>
 
-    <p>
-        Потребителите могат да поискат достъп, корекция или изтриване на
-        личните си данни и акаунт.
-    </p>
+<h2>2. Какви данни събираме</h2>
+<p>Събираме само данните, необходими за работата на приложението:</p>
+<ul>
+  <li><strong>Данни за акаунта:</strong> име, телефонен номер, парола (пази се само в хеширан вид, не в чист текст), идентификатор на потребителя.</li>
+  <li><strong>Данни за сградата и имота:</strong> сграда/входове, апартамент или обект, площ и идеални части, вашата роля (собственик, домоуправител, касиер и др.), участие и права в сградата.</li>
+  <li><strong>Финансови данни в рамките на сградата:</strong> задължения (такси), заявени и потвърдени плащания, приходи, разходи и финансови отчети на сградата. Приложението е счетоводен регистър; то <strong>не</strong> се свързва с банкова сметка и <strong>не</strong> съхранява данни за вашата банкова карта.</li>
+  <li><strong>Събрания и гласувания:</strong> присъствие, гласове по точки от дневния ред, протоколи.</li>
+  <li><strong>Съдържание, което създавате:</strong> съобщения в чата на сградата, снимки и документи, които качвате, известия.</li>
+</ul>
+<p>Приложението изисква само разрешение за интернет. Снимки и файлове се качват само ако сами ги изберете през системния избор на файлове. Не събираме точно местоположение, контакти, микрофон или камера.</p>
 
-    <h2>Контакт</h2>
+<h2>3. За какво използваме данните и на какво основание</h2>
+<ul>
+  <li>Регистрация, вход и управление на акаунта; потвърждаване на телефонен номер и възстановяване на парола с SMS код – <em>изпълнение на договор</em> (предоставяне на услугата).</li>
+  <li>Работа на функциите на приложението (сгради, такси, разходи, събрания, гласуване, чат, документи, отчети, известия) – <em>изпълнение на договор</em>.</li>
+  <li>Комуникация с вас относно акаунта и поддръжката – <em>изпълнение на договор / легитимен интерес</em>.</li>
+</ul>
+<p>Не продаваме личните ви данни и не ги използваме за реклама. В приложението няма рекламни или аналитични SDK.</p>
 
-    <p>
-        За въпроси относно поверителността или личните данни можете да се
-        свържете с нас чрез посочения в приложението канал за поддръжка.
-    </p>
+<h2>4. С кого споделяме данни</h2>
+<p>Ползваме доставчици, които обработват данни от наше име:</p>
+<ul>
+  <li><strong>Render</strong> – хостинг на сървъра на приложението.</li>
+  <li><strong>Supabase</strong> – база данни и съхранение на качени файлове.</li>
+  <li><strong>Google Firebase</strong> (Google LLC) – изпращане на push известия (когато функцията е включена в приложението).</li>
+  <li><strong>Infobip</strong> – изпращане на SMS кодове за потвърждение (получава телефонния ви номер и кода).</li>
+  <li><strong>Платежен доставчик за абонамента:</strong> Stripe. Данните за картата се обработват само от платежния доставчик, ние ги не виждаме и не ги съхраняваме.</li>
+</ul>
+<p><strong>Други потребители на същата сграда.</strong> По дизайна на приложението вашето име, апартамент, роля, статус на плащанията и съобщенията ви в чата са видими за останалите членове и управата на съответната сграда. Не са видими за потребители на други сгради.</p>
+<p>Можем да разкрием данни и на органи на власт, когато това се изисква от закона.</p>
 
+<h2>4а. Абонамент за сградата</h2>
+<p>Използването на приложението за сграда може да изисква годишен абонамент. За абонамента обработваме: сграда, сума, дата, референция на плащането и статус. Плащането се извършва през платежния доставчик, посочен по-горе, или чрез банков превод по реквизити, показани в приложението.</p>
 
-    <h3>С кого споделяме данни</h2>                                                                                                                                                                      
-    <ul>                                                                                                                                                                                                 
-      <li><strong>Доставчик на хостинг/сървър:</strong> Render, SupaBase , InfoBip които съхраняват данните от името на администратора.</li>                                                                                                                                                        
-      <li><strong>Платежен процесор:</strong> при плащане с карта плащането се извършва чрез Stripe.</li>                      
-      <li><strong>Други потребители в същата сграда:</strong> Вашето име, апартамент, роля, статус на плащанията и съобщенията Ви в чата са видими за другите потребители и управата на съответната      
-  сграда.</li>                                                                                                                                                                                                                                                                                                                 
-    </ul>                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                         
-    <h3>Съхранение на данните</h2>                                                                                                                                                                       
-    <p>                                                                                                                                                                                                  
-      Данните на акаунта се съхраняват, докато акаунтът е активен. След изтриване на                                                                                                                     
-      акаунта личните данни се изтриват.
+<h2>5. Колко дълго пазим данните</h2>
+<ul>
+  <li>Данните на акаунта се пазят, докато акаунтът е активен.</li>
+  <li>Кодове за потвърждение и за възстановяване на парола се пазят кратко и се изтриват с акаунта.</li>
+  <li>Данни, които са част от общата документация на сградата (протоколи, финансови записи, плащания), могат да се пазят и след изтриването на акаунта, но <strong>анонимизирани</strong> – без връзка с вашето име и телефон.</li>
+  <li>Логовете на хостинга се пазят за ограничен срок от съответния доставчик.</li>
+</ul>
 
+<h2>6. Изтриване на акаунт и данни</h2>
+<p>Можете да изтриете акаунта си по всяко време:</p>
+<ul>
+  <li><strong>В приложението:</strong> Профил → „Изтриване на акаунта“ (потвърждава се с парола).</li>
+  <li><strong>По имейл:</strong> ако нямате достъп до приложението, пишете на <a href="mailto:propertymanagement5005@gmail.com">propertymanagement5005@gmail.com</a>. Отговаряме в рамките на 30 дни.</li>
+</ul>
+<p>При изтриване акаунтът се деактивира и не можете да влезете повече; името и телефонният ви номер се заменят с анонимни стойности, а паролата и кодовете за потвърждение се изтриват. Съобщения, документи и финансови записи в сградата могат да останат в анонимизиран вид (без име и телефон), доколкото са част от общата история на сградата.</p>
+<p>Страница за изтриване на акаунт: <a href="https://propertymanagement5005-jpg.github.io/delete-account-BG/">https://propertymanagement5005-jpg.github.io/delete-account-BG/</a></p>
+
+<h2>7. Вашите права</h2>
+<p>Имате право на достъп, коригиране, изтриване, ограничаване на обработването, преносимост на данните и възражение срещу обработване, основано на легитимен интерес. За да упражните правата си, пишете на посочения имейл.</p>
+
+<h2>8. Сигурност</h2>
+<p>Комуникацията с нашите сървъри е криптирана (HTTPS). Паролите се пазят хеширани. Сесията на устройството се пази в криптирано хранилище. Достъпът до данните на сграда е ограничен според членството и ролята в сградата. Никоя система не е напълно защитена, но полагаме разумни усилия да защитим данните ви.</p>
+
+<h2>9. Промени в политиката</h2>
+<p>Можем да актуализираме тази политика. Датата на последната редакция е в началото. При съществени промени ще уведомим потребителите в приложението.</p>
+
+<h2>10. Контакт</h2>
+<p><a href="mailto:propertymanagement5005@gmail.com">propertymanagement5005@gmail.com</a></p>
+</section>
+
+<hr class="lang-sep" id="english">
+
+<!-- ===================================================================== -->
+<!-- ENGLISH                                                               -->
+<!-- ===================================================================== -->
+<section lang="en">
+<h1>Privacy Policy</h1>
+<p class="meta">“Moyat Dom” (Моят Дом) Android app · Last updated: 19 September 2026</p>
+
+<h2>1. Data controller</h2>
+<p>The controller of personal data is the developer of the “Moyat Dom” app, an individual: Stanimira Dimova.</p>
+<p>Contact for privacy questions and for exercising your rights: <a href="mailto:propertymanagement5005@gmail.com">propertymanagement5005@gmail.com</a>.</p>
+
+<h2>2. Data we collect</h2>
+<p>We collect only the data needed to run the app:</p>
+<ul>
+  <li><strong>Account data:</strong> name, phone number, password (stored only as a hash, never in plain text), user identifier.</li>
+  <li><strong>Building and property data:</strong> building, apartment or unit, area and ideal parts, your role (owner, manager, cashier, etc.), your membership and permissions in the building.</li>
+  <li><strong>Financial data within a building:</strong> dues, declared and confirmed payments, income, expenses and financial reports. The app is a bookkeeping ledger; it does <strong>not</strong> connect to your bank account and does <strong>not</strong> store your payment card details.</li>
+  <li><strong>Meetings and voting:</strong> attendance, votes on agenda items, protocols.</li>
+  <li><strong>Content you create:</strong> building chat messages, photos and documents you upload, notifications.</li>
+</ul>
+<p>The app requests only the Internet permission. Photos and files are uploaded only if you choose them through the system file picker. We do not collect precise location, contacts, microphone or camera data.</p>
+
+<h2>3. How we use data and legal basis</h2>
+<ul>
+  <li>Registration, sign-in and account management; phone verification and password recovery by SMS code – <em>performance of a contract</em>.</li>
+  <li>Running the app's features (buildings, dues, expenses, meetings, voting, chat, documents, reports, notifications) – <em>performance of a contract</em>.</li>
+  <li>Communicating with you about your account and support – <em>performance of a contract / legitimate interest</em>.</li>
+</ul>
+<p>We do not sell your personal data and do not use it for advertising. The app contains no advertising or analytics SDKs.</p>
+
+<h2>4. Who we share data with</h2>
+<p>We use service providers who process data on our behalf:</p>
+<ul>
+  <li><strong>Render</strong> – hosting of the app's server.</li>
+  <li><strong>Supabase</strong> – database and storage of uploaded files.</li>
+  <li><strong>Google Firebase</strong> (Google LLC) – sending push notifications (when the feature is enabled in the app).</li>
+  <li><strong>Infobip</strong> – sending SMS verification codes (receives your phone number and the code).</li>
+  <li><strong>Subscription payment provider:</strong> Stripe. Card details are processed only by the payment provider; we do not see or store them.</li>
+</ul>
+<p><strong>Other users of the same building.</strong> By design, your name, apartment, role, payment status and chat messages are visible to other members and the management of the same building. They are not visible to users of other buildings.</p>
+<p>We may disclose data to public authorities when required by law.</p>
+
+<h2>4a. Building subscription</h2>
+<p>Using the app for a building may require an annual subscription. For the subscription we process: building, amount, date, payment reference and status. Payment is made through the payment provider named above, or by bank transfer using the details shown in the app.</p>
+
+<h2>5. Retention</h2>
+<ul>
+  <li>Account data is kept while the account is active.</li>
+  <li>Verification and password-recovery codes are kept briefly and deleted with the account.</li>
+  <li>Data that forms part of a building's shared records (protocols, financial records, payments) may be kept after account deletion, but <strong>anonymized</strong> – without a link to your name and phone number.</li>
+  <li>Hosting logs are kept for a limited time by the respective provider.</li>
+</ul>
+
+<h2>6. Account and data deletion</h2>
+<p>You can delete your account at any time:</p>
+<ul>
+  <li><strong>In the app:</strong> Profile → “Delete account” (confirmed with your password).</li>
+  <li><strong>By email:</strong> if you cannot access the app, write to <a href="mailto:propertymanagement5005@gmail.com">propertymanagement5005@gmail.com</a>. We reply within 30 days.</li>
+</ul>
+<p>On deletion the account is deactivated and you can no longer sign in; your name and phone number are replaced with anonymous values, and your password and verification codes are deleted. Messages, documents and financial records in the building may remain in anonymized form (without name and phone) where they are part of the building's shared history.</p>
+<p>Account deletion page: <a href="https://propertymanagement5005-jpg.github.io/delete-account-BG/">https://propertymanagement5005-jpg.github.io/delete-account-BG/</a></p>
+
+<h2>7. Your rights</h2>
+<p>You have the right to access, rectify, erase, restrict processing, data portability, and to object to processing based on legitimate interest. To exercise your rights, email the address provided.</p>
+
+<h2>8. Security</h2>
+<p>Communication with our servers is encrypted (HTTPS). Passwords are stored hashed. The session on your device is kept in encrypted storage. Access to a building's data is restricted by membership and role. No system is completely secure, but we take reasonable steps to protect your data.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy. The date of the last update is at the top. For material changes we will notify users in the app.</p>
+
+<h2>10. Contact</h2>
+<p><a href="mailto:propertymanagement5005@gmail.com">propertymanagement5005@gmail.com</a></p>
+</section>
+
+</main>
 </body>
 </html>
